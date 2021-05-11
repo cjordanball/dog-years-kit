@@ -14,6 +14,7 @@
 		A95EF883264A17FD00E901F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95EF882264A17FD00E901F9 /* Assets.xcassets */; };
 		A95EF886264A17FD00E901F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95EF884264A17FD00E901F9 /* LaunchScreen.storyboard */; };
 		A95EF88F264A1F0600E901F9 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF88E264A1F0600E901F9 /* ResultVC.swift */; };
+		A95EF891264B2A4700E901F9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A95EF890264B2A4700E901F9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A95EF885264A17FD00E901F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A95EF887264A17FD00E901F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A95EF88E264A1F0600E901F9 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		A95EF890264B2A4700E901F9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		A95EF86D264A17FA00E901F9 = {
 			isa = PBXGroup;
 			children = (
+				A95EF890264B2A4700E901F9 /* .gitignore */,
 				A95EF878264A17FA00E901F9 /* DogYears */,
 				A95EF877264A17FA00E901F9 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A95EF891264B2A4700E901F9 /* .gitignore in Resources */,
 				A95EF886264A17FD00E901F9 /* LaunchScreen.storyboard in Resources */,
 				A95EF883264A17FD00E901F9 /* Assets.xcassets in Resources */,
 				A95EF881264A17FA00E901F9 /* Main.storyboard in Resources */,
