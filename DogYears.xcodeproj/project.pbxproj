@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A95EF87A264A17FA00E901F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF879264A17FA00E901F9 /* AppDelegate.swift */; };
 		A95EF87C264A17FA00E901F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF87B264A17FA00E901F9 /* SceneDelegate.swift */; };
-		A95EF87E264A17FA00E901F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF87D264A17FA00E901F9 /* ViewController.swift */; };
+		A95EF87E264A17FA00E901F9 /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF87D264A17FA00E901F9 /* InputVC.swift */; };
 		A95EF881264A17FA00E901F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95EF87F264A17FA00E901F9 /* Main.storyboard */; };
 		A95EF883264A17FD00E901F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95EF882264A17FD00E901F9 /* Assets.xcassets */; };
 		A95EF886264A17FD00E901F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95EF884264A17FD00E901F9 /* LaunchScreen.storyboard */; };
+		A95EF88F264A1F0600E901F9 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF88E264A1F0600E901F9 /* ResultVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A95EF876264A17FA00E901F9 /* DogYears.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogYears.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95EF879264A17FA00E901F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A95EF87B264A17FA00E901F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A95EF87D264A17FA00E901F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A95EF87D264A17FA00E901F9 /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
 		A95EF880264A17FA00E901F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A95EF882264A17FD00E901F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A95EF885264A17FD00E901F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A95EF887264A17FD00E901F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95EF88E264A1F0600E901F9 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				A95EF879264A17FA00E901F9 /* AppDelegate.swift */,
 				A95EF87B264A17FA00E901F9 /* SceneDelegate.swift */,
-				A95EF87D264A17FA00E901F9 /* ViewController.swift */,
+				A95EF88D264A1EC500E901F9 /* Controllers */,
 				A95EF87F264A17FA00E901F9 /* Main.storyboard */,
 				A95EF882264A17FD00E901F9 /* Assets.xcassets */,
 				A95EF884264A17FD00E901F9 /* LaunchScreen.storyboard */,
 				A95EF887264A17FD00E901F9 /* Info.plist */,
 			);
 			path = DogYears;
+			sourceTree = "<group>";
+		};
+		A95EF88D264A1EC500E901F9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A95EF87D264A17FA00E901F9 /* InputVC.swift */,
+				A95EF88E264A1F0600E901F9 /* ResultVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A95EF87E264A17FA00E901F9 /* ViewController.swift in Sources */,
+				A95EF87E264A17FA00E901F9 /* InputVC.swift in Sources */,
+				A95EF88F264A1F0600E901F9 /* ResultVC.swift in Sources */,
 				A95EF87A264A17FA00E901F9 /* AppDelegate.swift in Sources */,
 				A95EF87C264A17FA00E901F9 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T96J4T386J;
 				INFOPLIST_FILE = DogYears/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T96J4T386J;
 				INFOPLIST_FILE = DogYears/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
