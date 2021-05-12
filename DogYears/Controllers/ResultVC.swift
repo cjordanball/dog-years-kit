@@ -9,13 +9,19 @@ import UIKit
 
 class ResultVC: UIViewController {
 
+    var pupAge: Int?
+    
+    @IBOutlet weak var displayAge: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        displayAge.text = String(pupAge!);
         // Do any additional setup after loading the view.
     }
     
 
+    @IBAction func closeUp(_ sender: UIButton) {
+        self.dismiss(animated:true);
+    }
     /*
     // MARK: - Navigation
 
