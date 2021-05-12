@@ -15,6 +15,7 @@
 		A95EF886264A17FD00E901F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95EF884264A17FD00E901F9 /* LaunchScreen.storyboard */; };
 		A95EF88F264A1F0600E901F9 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF88E264A1F0600E901F9 /* ResultVC.swift */; };
 		A95EF891264B2A4700E901F9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A95EF890264B2A4700E901F9 /* .gitignore */; };
+		A95EF895264B5FE800E901F9 /* AppBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EF894264B5FE800E901F9 /* AppBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A95EF887264A17FD00E901F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A95EF88E264A1F0600E901F9 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
 		A95EF890264B2A4700E901F9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A95EF894264B5FE800E901F9 /* AppBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,8 @@
 				A95EF879264A17FA00E901F9 /* AppDelegate.swift */,
 				A95EF87B264A17FA00E901F9 /* SceneDelegate.swift */,
 				A95EF88D264A1EC500E901F9 /* Controllers */,
-				A95EF87F264A17FA00E901F9 /* Main.storyboard */,
+				A95EF892264B5F6400E901F9 /* Data */,
+				A95EF893264B5F9700E901F9 /* View */,
 				A95EF882264A17FD00E901F9 /* Assets.xcassets */,
 				A95EF884264A17FD00E901F9 /* LaunchScreen.storyboard */,
 				A95EF887264A17FD00E901F9 /* Info.plist */,
@@ -79,6 +82,22 @@
 				A95EF88E264A1F0600E901F9 /* ResultVC.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A95EF892264B5F6400E901F9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A95EF894264B5FE800E901F9 /* AppBrain.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A95EF893264B5F9700E901F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A95EF87F264A17FA00E901F9 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +173,7 @@
 			files = (
 				A95EF87E264A17FA00E901F9 /* InputVC.swift in Sources */,
 				A95EF88F264A1F0600E901F9 /* ResultVC.swift in Sources */,
+				A95EF895264B5FE800E901F9 /* AppBrain.swift in Sources */,
 				A95EF87A264A17FA00E901F9 /* AppDelegate.swift in Sources */,
 				A95EF87C264A17FA00E901F9 /* SceneDelegate.swift in Sources */,
 			);
