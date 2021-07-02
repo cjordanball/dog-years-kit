@@ -84,6 +84,8 @@
                     </view>
                     <connections>
                         <outlet property="ageDisplay" destination="KeB-RA-X0Q" id="VDl-yQ-y8J"/>
+                        <outlet property="ageQuery" destination="DW8-Op-hcC" id="Efg-xh-Nr3"/>
+                        <outlet property="checkButton" destination="bL7-Vh-EKq" id="BSv-wm-AUZ"/>
                         <outlet property="stepper" destination="4ib-xi-w85" id="p2R-IX-Yrs"/>
                         <segue destination="O5F-qS-bcY" kind="presentation" identifier="showPups" id="o3e-8v-SH1"/>
                     </connections>
@@ -163,6 +165,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="closeButton" destination="NCv-lE-wyQ" id="I1e-Nd-CuS"/>
                         <outlet property="displayAge" destination="NV0-T2-Xkn" id="GbW-xx-8LM"/>
                     </connections>
                 </viewController>
