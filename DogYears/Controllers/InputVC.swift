@@ -16,6 +16,7 @@ class InputVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         ageDisplay.text = "?";
     }
 
