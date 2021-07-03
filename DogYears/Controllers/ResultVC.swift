@@ -12,24 +12,17 @@ class ResultVC: UIViewController {
     var pupAge: Int?
     
     @IBOutlet weak var displayAge: UILabel!
+
+    @IBOutlet weak var closeButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         displayAge.text = String(pupAge!);
-        // Do any additional setup after loading the view.
+        closeButton.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10);
+        closeButton.layer.cornerRadius = 10;
     }
     
-
     @IBAction func closeUp(_ sender: UIButton) {
         self.dismiss(animated:true);
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
